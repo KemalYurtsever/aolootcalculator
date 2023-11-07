@@ -7,7 +7,7 @@ int main() {
     printf("Gank lootu gir: ");
     scanf("%f", &gank_loot);
     
-    printf("Repairları gir (sonuncu repairi girdikten sonra 0 enter bas): ");
+    printf("RepairlarÄ± gir (sonuncu repairi girdikten sonra 0 enter bas): ");
     
     repair = 0;
     while (1) {
@@ -21,7 +21,7 @@ int main() {
         repair += input;
     }
 
-    printf("Kaç kişi: ");
+    printf("KaÃ§ kiÅŸi: ");
     scanf("%d", &people);
     
     vergi = gank_loot * 12 / 100;
